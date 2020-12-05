@@ -483,54 +483,6 @@ for small screen(<720px):
     background-size: 7px 11px;
 }
 
-#shares {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    text-align: right;
-}
-
-#shares > li {
-    list-style: none;
-    display: inline;
-}
-
-#shares > li > * {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    margin-left: 5px;
-}
-
-#shares > li.talk {
-    display: none;
-}
-
-#kakao-link-btn {
-    background: url(../images/pc/share_talk.png) no-repeat;
-    background-size: 20px 20px;
-}
-
-#share-kakaostory {
-    background: url(../images/pc/share_story.png) no-repeat;
-    background-size: 20px 20px;
-}
-
-#share-facebook {
-    background: url(../images/pc/share_face.png) no-repeat;
-    background-size: 20px 20px;
-}
-
-#share-twitter {
-    background: url(../images/pc/share_twit.png) no-repeat;
-    background-size: 20px 20px;
-}
-
-#share-google {
-    background: url(../images/pc/share_goo.png) no-repeat;
-    background-size: 20px 20px;
-}
-
 #header,
 #cover,
 #navbar,
@@ -1270,36 +1222,6 @@ body.page-template {
         background-size: 10px 15px;
     }
 
-    #shares > li > * {
-        width: 22px;
-        height: 22px;
-    }
-
-    #kakao-link-btn {
-        background-image: url(../images/mo/share_talk.png);
-        background-size: 22px 22px;
-    }
-
-    #share-kakaostory {
-        background-image: url(../images/mo/share_story.png);
-        background-size: 22px 22px;
-    }
-
-    #share-facebook {
-        background-image: url(../images/mo/share_face.png);
-        background-size: 22px 22px;
-    }
-
-    #share-twitter {
-        background-image: url(../images/mo/share_twit.png);
-        background-size: 22px 22px;
-    }
-
-    #share-google {
-        background-image: url(../images/mo/share_goo.png);
-        background-size: 22px 22px;
-    }
-
     /* list(loop) */
     #post-list .post-item {
         margin: 0 15px;
@@ -1559,28 +1481,6 @@ body.page-template {
         background-image: url(../images/mo/icon_larrow@2x.png);
     }
 
-    #kakao-link-btn {
-        background-image: url(../images/mo/share_talk@2x.png);
-        background-size: 22px 22px;
-    }
-
-    #share-kakaostory {
-        background-image: url(../images/mo/share_story@2x.png);
-        background-size: 22px 22px;
-    }
-
-    #share-facebook {
-        background-image: url(../images/mo/share_face@2x.png);
-    }
-
-    #share-twitter {
-        background-image: url(../images/mo/share_twit@2x.png);
-    }
-
-    #share-google {
-        background-image: url(../images/mo/share_goo@2x.png);
-    }
-
     #post-list .author-image {
         background-image: url(../images/mo/default_pic_s@2x.png);
     }
@@ -1635,28 +1535,6 @@ body.page-template {
 
     #link-back {
         background-image: url(../images/mo/icon_larrow@3x.png);
-    }
-
-    #kakao-link-btn {
-        background-image: url(../images/mo/share_talk@3x.png);
-        background-size: 22px 22px;
-    }
-
-    #share-kakaostory {
-        background-image: url(../images/mo/share_story@3x.png);
-        background-size: 22px 22px;
-    }
-
-    #share-facebook {
-        background-image: url(../images/mo/share_face@3x.png);
-    }
-
-    #share-twitter {
-        background-image: url(../images/mo/share_twit@3x.png);
-    }
-
-    #share-google {
-        background-image: url(../images/mo/share_goo@3x.png);
     }
 
     #post-list .author-image {
