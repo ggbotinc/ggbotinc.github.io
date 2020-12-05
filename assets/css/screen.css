@@ -381,18 +381,6 @@ for small screen(<720px):
     background-image: url(../images/pc/icon_git.png);
 }
 
-#link-facebook {
-    background-image: url(../images/pc/icon_face.png);
-}
-
-#link-twitter {
-    background-image: url(../images/pc/icon_twit.png);
-}
-
-#link-rss {
-    background-image: url(../images/pc/icon_rss.png);
-}
-
 #copyright {
     padding-top: 10px;
 }
@@ -697,42 +685,6 @@ a.tag:hover {
     background-size: 6px 11px;
 }
 
-/* home */
-/*
-+#cover-----------------------------------------+
-|                                               |
-+-----------------------------------------------+
-
-+#navbar----------------------------------------+
-|                                               |
-+-----------------------------------------------+
-
-+#content---------------------------------------+
-|                                               |
-|+#home-content--------------------------------+|
-||                                             ||
-||+#post-list---------------------------------+||
-|||                                           |||
-|||+.post-item-------------------------------+|||
-||||                                         ||||
-||||.post-title             +.post-author---+||||
-||||                        | .author-image |||||
-||||.post-excerpt           | .author-name  |||||
-||||                        +---------------+||||
-||||                           .post-date    ||||
-||||.post-tags                               ||||
-||||                                         ||||
-|||+-----------------------------------------+|||
-|||                                           |||
-||+-------------------------------------------+||
-||                                             ||
-||+#pagination=-------------------------------+||
-|||                                           |||
-||+-------------------------------------------+||
-||                                             ||
-|+---------------------------------------------+|
-|                                               |
-+-----------------------------------------------+
 */
 
 body.home-template {
@@ -1272,18 +1224,6 @@ body.page-template {
         background-image: url(../images/mo/icon_git.png);
     }
 
-    #links-facebook {
-        background-image: url(../images/mo/icon_face.png);
-    }
-
-    #links-twitter {
-        background-image: url(../images/mo/icon_twit.png);
-    }
-
-    #links-rss {
-        background-image: url(../images/mo/icon_rss.png);
-    }
-
     #footer-menu {
         margin-top: 20px;
     }
@@ -1615,18 +1555,6 @@ body.page-template {
         background-image: url(../images/mo/icon_git@2x.png);
     }
 
-    #link-facebook {
-        background-image: url(../images/mo/icon_face@2x.png);
-    }
-
-    #link-twitter {
-        background-image: url(../images/mo/icon_twit@2x.png);
-    }
-
-    #link-rss {
-        background-image: url(../images/mo/icon_rss@2x.png);
-    }
-
     #link-back {
         background-image: url(../images/mo/icon_larrow@2x.png);
     }
@@ -1703,18 +1631,6 @@ body.page-template {
 
     #link-github {
         background-image: url(../images/mo/icon_git@3x.png);
-    }
-
-    #link-facebook {
-        background-image: url(../images/mo/icon_face@3x.png);
-    }
-
-    #link-twitter {
-        background-image: url(../images/mo/icon_twit@3x.png);
-    }
-
-    #link-rss {
-        background-image: url(../images/mo/icon_rss@3x.png);
     }
 
     #link-back {
