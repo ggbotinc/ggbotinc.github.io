@@ -9,6 +9,15 @@
             </span>
             <span class="MuiTouchRipple-root"></span>
         </button>
+        <button onclick="myFunction()"></button>
+        <script>
+            function myFunction() {
+              var copyText = '{{ abs_page_url }}'
+              copyText.select();
+              copyText.setSelectionRange(0, 99999)
+              document.execCommand("copy");
+            }
+        </script>
         <!--<a id="share-kakaostory" href="javascript:shareStory('{{ abs_page_url }}');"></a>-->
     </li>
 </ul>
