@@ -2,7 +2,7 @@
 layout: default
 ---
 <div id="navbar" class="container">
-  <h5><a id="link-back" href="/">Back to Posts</a></h5>
+  <h5><a id="link-back" href="/">홈으로 이동하기</a></h5>
 </div>
 
 <div id="cover" class="container" {% if page.image %}style="background-image: url({{ page.image }});" {% endif %}>
@@ -28,7 +28,7 @@ layout: default
       </div>
       <p id="author-name">{{ author.name }}</p>
     </a>
-    <p id="post-date">{{ page.date | date: '%Y-%m-%d }}</p>
+    <p id="post-date">{{ page.date | date: '%Y-%m-%d %H:%M' }}</p>
     <a id="post-more" href="{{ author.url }}">
       <span>Read more posts by this author</span>
     </a>
@@ -41,7 +41,7 @@ layout: default
   <div id="post-prev" {% if prev.image %}style="background-image: url({{ prev.image }});" {% endif %}>
     <div>
       <h3><a href="{{ prev.url }}">{{ prev.title }}</a></h3>
-      <p>YOU MIGHT ENJOY</p>
+      <p>추천 포스트</p>
     </div>
   </div>
   {% endif %}
@@ -50,7 +50,7 @@ layout: default
   <div id="post-next" {% if next.image %}style="background-image: url({{ next.image }});" {% endif %}>
     <div>
       <h3><a href="{{ next.url }}">{{ next.title }}</a></h3>
-      <p>NEXT POST</p>
+      <p>다음 포스트</p>
     </div>
   </div>
   {% endif %}
