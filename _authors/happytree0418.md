@@ -1,6 +1,6 @@
 ---
 layout: author
-name: happytree0418
-title: Happytree Samsung
-image: /files/authors/삼성해피트리.png
+name: 팀 텝 애브리띵
+title: 애브리띵
+image: https://avatars2.githubusercontent.com/u/74997571?s=200&v=4
 ---
