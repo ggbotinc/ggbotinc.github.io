@@ -2,7 +2,7 @@
 layout: post
 title: "텝로그 오픈!"
 author: everything
-date: 2020-12-13
+date: 2020-12-13 02:00
 tags: [공지사항, 웹]
 comments: true
 ---
