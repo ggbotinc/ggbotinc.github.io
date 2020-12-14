@@ -1,11 +1,11 @@
-title: 홍보숲 블로그
-email: support@prforest.ga
-description: 즐겁고 다양하게, 홍보해요 유저들의 숲!
+title: 텝로그
+email: every@afmail.kro.kr
+description: 띵이봇을 만드는 팀 텝의 블로그!
 baseurl: ''
-url: 'https://prforest.ga'
+url: 'https://blog.teb.kro.kr'
 timezone: Asia/Seoul 
 
-repository: prforest/prforest.github.io
+repository: TEAMTEB/teblog
 
 permalink: /:year/:month/:day/:title/
 
@@ -48,11 +48,9 @@ exclude: [README.md, Gemfile, Gemfile.lock]
 keep_files: [assets, files]
 github: [metadata]
 
-author: support@prforest.ga
+author: every@afmail.kro.kr
 image: '/assets/images/default_blog_cover.jpg'
 asset_url: /assets
 
 github_url:
-  username: prforest
-twitter:
-  username: prforest_twt
+  username: TEAMTEB
