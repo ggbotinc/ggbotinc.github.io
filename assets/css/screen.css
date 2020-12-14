@@ -433,6 +433,54 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     background-size: 7px 11px;
 }
 
+#shares {	
+    list-style: none;	
+    margin: 0;	
+    padding: 0;	
+    text-align: right;	
+}	
+
+#shares > li {	
+    list-style: none;	
+    display: inline;	
+}	
+
+#shares > li > * {	
+    display: inline-block;	
+    width: 20px;	
+    height: 20px;	
+    margin-left: 5px;	
+}	
+
+#shares > li.talk {	
+    display: none;	
+}	
+
+#kakao-link-btn {	
+    background: url(../images/pc/share_talk.png) no-repeat;	
+    background-size: 20px 20px;	
+}	
+
+#share-kakaostory {	
+    background: url(../images/pc/share_story.png) no-repeat;	
+    background-size: 20px 20px;	
+}	
+
+#share-facebook {	
+    background: url(../images/pc/share_face.png) no-repeat;	
+    background-size: 20px 20px;	
+}	
+
+#share-twitter {	
+    background: url(../images/pc/share_twit.png) no-repeat;	
+    background-size: 20px 20px;	
+}	
+
+#share-google {	
+    background: url(../images/pc/share_goo.png) no-repeat;	
+    background-size: 20px 20px;	
+}
+
 #header,
 #cover,
 #navbar,
@@ -441,6 +489,36 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 
 /* list(loop) */
+
+#shares > li > * {	
+    width: 22px;	
+    height: 22px;	
+}	
+
+#kakao-link-btn {	
+    background-image: url(../images/mo/share_talk.png);	
+    background-size: 22px 22px;	
+}	
+
+#share-kakaostory {	
+    background-image: url(../images/mo/share_story.png);	
+    background-size: 22px 22px;	
+}	
+
+#share-facebook {	
+    background-image: url(../images/mo/share_face.png);	
+    background-size: 22px 22px;	
+}	
+
+#share-twitter {	
+    background-image: url(../images/mo/share_twit.png);	
+    background-size: 22px 22px;	
+}	
+
+#share-google {	
+    background-image: url(../images/mo/share_goo.png);	
+    background-size: 22px 22px;	
+}
 
 #post-list {
     list-style: none;
