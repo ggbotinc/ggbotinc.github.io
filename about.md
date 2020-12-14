@@ -6,8 +6,4 @@ image: /files/covers/blog.jpg
 sitemap: yes
 tags: [about]
 ---
-
-[kakao](http://www.kakaocorp.com) 기술블로그 입니다.
-
-Powered by [GitHub Pages](https://pages.github.com) and [Jekyll](https://jekyllrb.com).
-
+텝로그는 띵이봇을 만드는 팀 텝의 공식 블로그입니다!
