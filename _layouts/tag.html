@@ -3,8 +3,38 @@ layout: default
 ---
 <div id="navbar" class="container">
     <h5><a id="link-back" href="/">홈으로 돌아가기</a></h5>
-    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5fd80c6c81f85e90"></script>
-    <div class="addthis_inline_share_toolbox"></div>
+    <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+<script>
+Kakao.init('88a0911c2ba4f1a6b0392f4b3dd53221');
+function sendLinkKakao(){
+    Kakao.Link.sendDefault({
+      objectType: 'feed',
+      content: {
+        title: '{{ post.title }}',
+        description: '{{ post.content|bs4process|truncatewords:15 }}',
+        imageUrl: '{{ post.content|bs4imagepath|full_url }}',
+        link: {
+          mobileWebUrl: '{{ request.build_absolute_uri }}',
+          webUrl: '{{ request.build_absolute_uri }}'
+        }
+      },
+      buttons: [       
+        {
+          title: '링크 열기',
+          link: {
+            mobileWebUrl: '{{ request.build_absolute_uri }}',
+            webUrl: '{{ request.build_absolute_uri }}'
+          }
+        }
+      ]
+    }); 
+}
+</script>
+<span class="sociallink ml-1">
+    <a href="javascript:sendLinkKakao()" id="kakao-link-btn" title="카카오톡으로 공유">
+        카카오톡 공유
+    </a>
+</span>
 </div>
 
 <div id="cover" class="container"
