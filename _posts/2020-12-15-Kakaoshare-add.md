@@ -2,7 +2,7 @@
 layout: post
 title: "카카오 톡, 스토리 공유 추가!"
 author: everything
-date: 2020-12-15 6:53
+date: 2020-12-15 18:53
 tags: [웹, 공지사항]
 comments: true
 ---
