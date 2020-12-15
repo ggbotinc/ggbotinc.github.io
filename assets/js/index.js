@@ -86,3 +86,8 @@
         });
     });
 }(window, window.document, window.jQuery));
+
+Kakao.Story.createShareButton({
+  container: '#create-kakaostory-share-button',
+  url: document.URL,
+})
