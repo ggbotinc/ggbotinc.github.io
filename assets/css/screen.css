@@ -10,6 +10,9 @@ body {
     font-weight: 300; /* @@iolo 200 -> 300, 200 for retina only! */
     color: #505050;
     background-color: #fff;
+}
+
+body, html {
     scroll-behavior: smooth;
 }
 
