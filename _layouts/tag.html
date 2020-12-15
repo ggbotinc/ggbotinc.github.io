@@ -1,9 +1,7 @@
 ---
 layout: default
 ---
-<div id="navbar" class="container">
-    <h5><a id="link-back" href="/">홈으로 돌아가기</a></h5>
-    <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+<script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
 <script>
 Kakao.init('88a0911c2ba4f1a6b0392f4b3dd53221');
 function sendLinkKakao(){
@@ -30,10 +28,40 @@ function sendLinkKakao(){
     }); 
 }
 </script>
+<div id="navbar" class="container">
+  <h5><a id="link-back" href="/">홈으로 돌아가기</a></h5>
 <span class="sociallink ml-1">
     <a href="javascript:sendLinkKakao()" id="kakao-link-btn" title="카카오톡으로 공유">
         카카오톡 공유
     </a>
+    <!-- 페이스북 공유 버튼 -->
+<a href="#" onclick="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(document.URL)+'&t='+encodeURIComponent(document.title), 'facebooksharedialog','menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600'); 
+    return false; 
+    " target="_blank" alt="Share on Facebook" class="share"> 
+    <img src="https://tistory2.daumcdn.net/tistory/3832796/skin/images/Facebook.png"></a> 
+	<a href="#" onclick="javascript:window.open('https://twitter.com/intent/tweet?text=[%EA%B3%B5%EC%9C%A0]%20'
+                                       +encodeURIComponent(document.URL)+'%20-%20'+encodeURIComponent(document.title), 'Share on Twitter',
+                                       'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');
+                     return false;
+                     " target="_blank" alt="Share on Twitter" class="share">
+                     <img src="https://tistory3.daumcdn.net/tistory/3832796/skin/images/Twitter.png"></a>
+	<a href="#" onclick="javascript:window.open('http://share.naver.com/web/shareView.nhn?url='+encodeURIComponent(document.URL)+'&title='+
+                      encodeURIComponent(document.title), 'naversharedialog', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');
+                      return false;
+                      " target="_blank" alt="Share on Naver" class="share">
+                      <img src="https://tistory3.daumcdn.net/tistory/3832796/skin/images/Naver.png"></a>
+  <!-- 밴드 공유 버튼 -->
+  <a href="#" onclick="javascript:window.open('https://band.us/plugin/share?url='
+  									 +encodeURIComponent(document.URL)+'&title='+encodeURIComponent(document.title),
+  									 'naversharedialog', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');
+                     return false;"
+                     target="_blank" alt="Share on Naver" class="share">
+                     <img src="https://tistory2.daumcdn.net/tistory/3832796/skin/images/band.png"></a>
+	<!-- 플립보드 공유 버튼 -->
+  	<a data-flip-widget="shareflip" href="https://flipboard.com" class="share">
+    	<img src="https://tistory2.daumcdn.net/tistory/3832796/skin/images/FlipBoard.png" /></a>
+  	<script src="https://cdn.flipboard.com/web/buttons/js/flbuttons.min.js" type="text/javascript">
+    	</script>
 </span>
 </div>
 
