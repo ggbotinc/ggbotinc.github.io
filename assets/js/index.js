@@ -91,3 +91,11 @@ Kakao.Story.createShareButton({
   container: '#create-kakaostory-share-button',
   url: document.URL,
 })
+
+Kakao.init('88a0911c2ba4f1a6b0392f4b3dd53221');
+
+function shareKatalk() {
+Kakao.Link.sendScrap({
+    requestUrl: location.href
+});
+};
