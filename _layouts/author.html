@@ -1,39 +1,8 @@
 ---
 layout: default
 ---
-<script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
-<script>
-Kakao.init('88a0911c2ba4f1a6b0392f4b3dd53221');
-function sendLinkKakao(){
-    Kakao.Link.sendDefault({
-      objectType: 'feed',
-      content: {
-        title: '{{ post.title }}',
-        description: '{{ post.content|bs4process|truncatewords:15 }}',
-        imageUrl: '{{ post.content|bs4imagepath|full_url }}',
-        link: {
-          mobileWebUrl: '{{ request.build_absolute_uri }}',
-          webUrl: '{{ request.build_absolute_uri }}'
-        }
-      },
-      buttons: [       
-        {
-          title: '링크 열기',
-          link: {
-            mobileWebUrl: '{{ request.build_absolute_uri }}',
-            webUrl: '{{ request.build_absolute_uri }}'
-          }
-        }
-      ]
-    }); 
-}
-</script>
 <div id="navbar" class="container">
   <h5><a id="link-back" href="/">홈으로 돌아가기</a></h5>
-<span class="sociallink ml-1">
-    <a href="javascript:sendLinkKakao()" id="kakao-link-btn" title="카카오톡으로 공유">
-        카카오톡 공유
-    </a>
     <!-- 페이스북 공유 버튼 -->
 <a href="#" onclick="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(document.URL)+'&t='+encodeURIComponent(document.title), 'facebooksharedialog','menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600'); 
     return false; 
