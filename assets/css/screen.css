@@ -685,7 +685,7 @@ body.home-template #cover {
 }
 
 body.post-template #cover {
-    background-image: url(../images/default_post_cover.jpg);
+    background: lightblue;
 }
 
 body.page-template #cover {
