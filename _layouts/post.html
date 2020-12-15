@@ -8,20 +8,20 @@ function sendLinkKakao(){
     Kakao.Link.sendDefault({
       objectType: 'feed',
       content: {
-        title: '{{ post.title }}',
-        description: '{{ post.content|bs4process|truncatewords:15 }}',
-        imageUrl: '{{ post.content|bs4imagepath|full_url }}',
+        title: document.title,
+        description: '팀 텝의 블로그, 텝로그에서 글을 읽어보세요!',
+        imageUrl: document.images[0].src,
         link: {
-          mobileWebUrl: '{{ request.build_absolute_uri }}',
-          webUrl: '{{ request.build_absolute_uri }}'
+          mobileWebUrl: document.location.href,
+          webUrl: document.location.href'
         }
       },
       buttons: [       
         {
           title: '링크 열기',
           link: {
-            mobileWebUrl: '{{ request.build_absolute_uri }}',
-            webUrl: '{{ request.build_absolute_uri }}'
+            mobileWebUrl: document.location.href,
+            webUrl: document.location.href
           }
         }
       ]
@@ -31,9 +31,9 @@ function sendLinkKakao(){
 <div id="navbar" class="container">
   <h5><a id="link-back" href="/">홈으로 돌아가기</a></h5>
 <span class="sociallink ml-1">
-    <a href="javascript:sendLinkKakao()" id="kakao-link-btn" title="카카오톡으로 공유">
-        카카오톡 공유
-    </a>
+    <a id="kakao-link-btn" href="javascript:sendLinkKakao()">
+<img src="//developers.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_medium.png"/>
+</a>
     <!-- 페이스북 공유 버튼 -->
 <a href="#" onclick="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(document.URL)+'&t='+encodeURIComponent(document.title), 'facebooksharedialog','menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600'); 
     return false; 
