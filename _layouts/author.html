@@ -16,10 +16,10 @@ layout: default
         <h1>{{ page.title | default: page.name }}</h1>
         <p><em>{{ page.title | default: page.name }}</em>님의 포스트</p>
     </div>
+  {{ content }}
 </div>
 
 <div id="content" class="container">
-  {{ content }}
     <div id="author-content" role="main">
         <ul id="post-list">
             {% for post in site.posts %}
