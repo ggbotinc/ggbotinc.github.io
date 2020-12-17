@@ -123,3 +123,8 @@ function CopyUrlToClipboard()
 	alert("URL이 클립보드에 복사되었습니다"); 
 
 }
+
+function Loadingcomplete()
+var obShareUrl = document.getElementById("ShareUrl");
+
+obShareUrl.value = window.document.location.href;
