@@ -2,7 +2,7 @@
 layout: post
 title: "띵이봇 명령어 전체 업데이트!"
 author: everything
-date: 2020-12-22 3:46
+date: 2020-12-22 4:11
 tags: [공지사항, 띵이봇 뉴스]
 comments: true
 ---
