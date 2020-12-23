@@ -6,7 +6,6 @@ image: /files/covers/blog.jpg
 sitemap: yes
 tags: [about]
 ---
-# 텝로그는 띵이봇을 만드는 팀 텝의 공식 블로그입니다!
-팀 텝
+# GG inc.는 유틸리티 챗봇을 만드는 회사 컨셉의 팀입니다.
 
-대표자: [애브리띵](https://teb.kro.kr/members/#every)
+대표자: [S_GG](https://discord.com/users/247305812123320321)
