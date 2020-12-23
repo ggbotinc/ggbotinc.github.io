@@ -1,11 +1,11 @@
-title: 텝로그
+title: GG inc.
 email: every@afmail.kro.kr
-description: 띵이봇을 만드는 팀 텝의 블로그!
+description: GGBot을 만드는 GG inc.의 공식 블로그입니다.
 baseurl: ''
-url: 'https://blog.teb.kro.kr'
+url: 'https://ggbot.kro.kr'
 timezone: Asia/Seoul 
 
-repository: TEAMTEB/teblog
+repository: ggbotinc/ggbotinc.github.io
 
 permalink: /:year/:month/:day/:title/
 
@@ -53,4 +53,4 @@ image: '/assets/images/default_blog_cover.jpg'
 asset_url: /assets
 
 github_url:
-  username: TEAMTEB
+  username: ggbotinc
