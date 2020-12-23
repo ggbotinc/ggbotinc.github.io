@@ -693,7 +693,7 @@ body.page-template #cover {
 }
 
 body.author-template #cover {
-    background: #009688;
+    background: green;
 }
 
 body.tag-template #cover {
