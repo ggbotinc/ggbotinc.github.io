@@ -693,7 +693,7 @@ body.page-template #cover {
 }
 
 body.author-template #cover {
-    background-image: url(../images/default_author_cover.gif);
+    background: #009688;
 }
 
 body.tag-template #cover {
