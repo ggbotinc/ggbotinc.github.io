@@ -92,4 +92,4 @@ Kakao.Story.createShareButton({
   url: document.URL,
 })
 
-Kakao.init('88a0911c2ba4f1a6b0392f4b3dd53221');
+Kakao.init('bde96201638d08970419c58c2ce6a8c8');
